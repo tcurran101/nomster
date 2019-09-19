@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 .booyah-box {
     -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
     -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,4 +26,11 @@
   .navbar {
     background: image_url('rubber_grip.png');
     box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.2);
+  }
+
+  .navbar-inverse .navbar-brand {
+    color: #77D1C9;
+    font-family: 'asap_condensedregular', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
   }
