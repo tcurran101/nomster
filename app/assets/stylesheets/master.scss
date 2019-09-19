@@ -16,3 +16,13 @@
     margin:0;
     padding:0;
   }
+
+  body {
+    background: image_url('hypnotize.png');
+    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  }
+
+  .navbar {
+    background: image_url('rubber_grip.png');
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.2);
+  }
