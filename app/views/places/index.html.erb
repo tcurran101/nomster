@@ -1,14 +1,5 @@
 <%= will_paginate @products %>
 
-<!-- or custom pagination -->
-<% if @places.previous_page %>
-  <%= link_to h("<"), params.merge(page: @places.previous_page) %>
-<% end %>
-Page <%= @places.current_page %> of <%= @places.total_pages %>
-<% if @places.next_page %>
-  <%= link_to h(">"), params.merge(page: @places.next_page) %>
-<% end %>
-
 
 <% @places.each do |place| %>
   <div>
