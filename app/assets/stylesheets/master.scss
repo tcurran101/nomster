@@ -41,10 +41,11 @@
     cursor: default;
     height: 22px;
     a, span, em {
-      padding: 0.2em 0.5em;
+      padding: 2px;
+      padding-bottom: 2px;
       display: block;
       float: left;
-      margin-right: 1px;
+      margin-right: 3px;
     }
     .disabled {
       display: none;
