@@ -47,19 +47,17 @@
       display: block;
       float: left;
       margin-right: 3px;
-     
-      
-    }
+      }
     .disabled {
       display: none;
-    }
+      }
     .current {
       font-style: normal;
       font-weight: bold;
       background: #77D1C9;
       color: white;
       border: 1px solid #77D1C9;
-    }
+      }
     a {
       text-decoration: none;
       background: white;
@@ -83,4 +81,11 @@
         padding: 0.1em 0.25em;
       }
     }
+   }
+
+.invalid-feedback {
+    color: #ff3333;
+    background-color: #FFEEEE;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
   }
