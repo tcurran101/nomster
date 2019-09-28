@@ -66,6 +66,8 @@ gem 'will_paginate', '~> 3.1.1'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'devise'
+gem 'geocoder'
+gem "figaro"
 
 gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
