@@ -41,10 +41,8 @@
    <br/>
 </div>
 
-<%= simple_form_for @photo, url: place_photos_path(@place) do |f|%>
-<%= f.input :caption %>
-<%= f.submit "Add a Photo", class: 'btn btn-primary' %>
-<% end %>
+<div class="photo-upload">
+<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -62,12 +60,22 @@
           <%= f.input :message %>
           <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
         </div>
+        
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
         </div>
       <% end %>
-    </div>
+      </div>
+
+      <%= simple_form_for @photo, url: place_photos_path(@place) do |f|%>
+      <div class="modal-footer">
+      <%= f.input :caption %>
+      <%= f.input :picture %>
+      <%= f.input :picture %>
+      <%= f.submit "Add a Photo", class: 'btn btn-primary' %>
+      </div>
+      <% end %>
   </div>
 </div>
 
