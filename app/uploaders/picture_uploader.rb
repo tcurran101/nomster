@@ -1,5 +1,4 @@
 class PictureUploader < CarrierWave::Uploader::Base
-
   storage :fog
 
   def store_dir
