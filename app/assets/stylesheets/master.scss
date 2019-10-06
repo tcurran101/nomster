@@ -42,22 +42,26 @@
     height: 22px;
     margin-bottom: 20px;
     margin-left: 10px;
+    
     a, span, em {
       padding: 2px;
       display: block;
       float: left;
       margin-right: 3px;
       }
-    .disabled {
+    
+      .disabled {
       display: none;
       }
-    .current {
+    
+      .current {
       font-style: normal;
       font-weight: bold;
       background: #77D1C9;
       color: white;
       border: 1px solid #77D1C9;
       }
+
     a {
       text-decoration: none;
       background: white;
@@ -67,7 +71,7 @@
         color: #000033;
         border-color: #000033;
       }
-    }
+    
     .page_info {
       background: #77D1C9;
       color: white;
@@ -75,14 +79,15 @@
       width: 22em;
       margin-bottom: 0.3em;
       text-align: center;
+      }
+      
       b {
         color: #000033;
         background: rgb(35, 87, 82) + 60;
         padding: 0.1em 0.25em;
       }
     }
-   }
-
+    
 .invalid-feedback {
     color: #ff3333;
     background-color: #FFEEEE;
