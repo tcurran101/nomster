@@ -43,13 +43,12 @@
     height: 22px;
     margin-bottom: 20px;
     margin-left: 10px;
-    
+      
     a, span, em {
-      padding: 3px 3px 3px 3px;
       display: block;
       float: left;
       margin: 3px;
-      }
+            }
     
       .disabled {
       display: none;
@@ -59,13 +58,17 @@
       font-style: normal;
       font-weight: bold;
       background: #77D1C9;
+      height: 25px;
+      padding: 3px;
       color: white;
       border: 1px solid #77D1C9;
       }
 
     a {
-      text-decoration: none;
+      text-decoration: center;
       background: white;
+      height: 25px;
+      padding: 3px;
       color: rgb(35, 87, 82);
       border: 1px solid hsl(183, 37%, 81%);
       &:hover, &:focus {
