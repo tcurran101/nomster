@@ -45,10 +45,10 @@
     margin-left: 10px;
     
     a, span, em {
-      padding: 2px;
+      padding: 3px 3px 3px 3px;
       display: block;
       float: left;
-      margin-right: 3px;
+      margin: 3px;
       }
     
       .disabled {
@@ -76,7 +76,7 @@
     .page_info {
       background: #77D1C9;
       color: white;
-      padding: 0.4em 0.6em;
+      padding:3px;
       width: 22em;
       margin-bottom: 0.3em;
       text-align: center;
@@ -164,8 +164,4 @@
 .image_container img {
   width: 250px;
   height: 180px;
-}
-
-a:link {
-  color: #234559;
 }
